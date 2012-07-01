@@ -1,0 +1,54 @@
+.somestuff {
+	background:#ccc
+}
+dl dt {
+  color: #555;
+}
+
+dl dd {
+    margin: 0 0 10px 0;
+}
+.header {
+  background: #222;
+  color: white;
+  /* position: fixed;*/
+}
+.header h1 {
+	color:white;
+}
+.header h4 {
+  font-family: "Georgia", Serif;      
+  font-weight: normal;
+  font-style: italic;
+  color: #666;
+}
+.header dl {
+    float: right;
+    margin: 0;
+}
+.skills ul {
+    list-style-type: none;
+    margin: 0 0 10px 0;
+}
+.skills ul li {
+    float: left;
+    margin: 0 5px 5px 0;
+    font-size: 90%;
+    background: #b3b3b3;
+    padding: 4px;
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.skills li:hover {
+	background:#7C7C7C
+}
+body {
+	background:#eee
+}
+.experiance ul li {
+/*	list-style-type: none;*/
+
+}
+
