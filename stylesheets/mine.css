@@ -8,6 +8,9 @@ dl dt {
 dl dd {
     margin: 0 0 10px 0;
 }
+.righter {
+	float:right;
+}
 .header {
   background: #222;
   color: white;
