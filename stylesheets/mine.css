@@ -1,20 +1,36 @@
 .somestuff {
-	background:#ccc
+	background:#ccc;
+	background-color: rgba(204, 204, 204, 0.4);
+	box-shadow:0px 0px 8px 2px rgba(0, 0, 0, 0.2)
+}
+.midtown {
+	margin-top:14px;
+	margin-bottom:14px;
 }
 dl dt {
   color: #555;
 }
-
+dt:after 
+{ 
+	content: ":"; 
+}
 dl dd {
     margin: 0 0 10px 0;
 }
-.righter {
-	float:right;
-}
 .header {
   background: #222;
+  background-image: url('../images/blackwood_1.jpg');
   color: white;
   /* position: fixed;*/
+}
+.name:hover {
+	vertical-align: middle;
+}
+.name h1:hover {
+	-webkit-transform: rotate(-24deg);
+	-moz-transform: rotate(-24deg);
+	color:gold;
+	text-decoration: overline underline;
 }
 .header h1 {
 	color:white;
@@ -48,10 +64,26 @@ dl dd {
 	background:#7C7C7C
 }
 body {
-	background:#eee
+  	margin: 0;
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	color: #333333;
+	background-color: #ffffff;
+	background-image: url('../images/grainy-lt-grey.jpg');
 }
 .experiance ul li {
 /*	list-style-type: none;*/
 
 }
-
+.footer {
+	left:0px;
+	bottom:0px;
+	height:2.143em;
+	width:100%;
+	background:#999;
+	background-color:rgba(153,153,153,0.5);
+	box-shadow:0px 0px 8px 2px rgba(204, 204, 204, 0.3);
+}
+.footer dl {
+	display:inline-block;
+	padding: 0px 0.714em 0px 0.714em	
+}
