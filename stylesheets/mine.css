@@ -26,20 +26,21 @@ dl dd {
 .name:hover {
 	vertical-align: middle;
 }
-.name h1:hover {
+/*.name h1:hover {
 	-webkit-transform: rotate(-24deg);
 	-moz-transform: rotate(-24deg);
 	color:gold;
 	text-decoration: overline underline;
 }
+*/
 .header h1 {
-	color:white;
+	color:#fdfdfd;
 }
 .header h4 {
   font-family: "Georgia", Serif;      
   font-weight: normal;
   font-style: italic;
-  color: #666;
+  color: #a0a0a0;
 }
 .header dl {
     float: right;
@@ -75,6 +76,7 @@ body {
 
 }
 .footer {
+	top: 1em;
 	left:0px;
 	bottom:0px;
 	height:2.143em;
