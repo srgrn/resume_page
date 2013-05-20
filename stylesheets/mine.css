@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|PT+Sans|PT+Sans+Caption:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans|PT+Sans+Caption:400,700);
 .somestuff {
 	background:#ccc;
 	background-color: rgba(204, 204, 204, 0.4);
@@ -67,7 +67,7 @@ dl dd {
 }
 body {
   	margin: 0;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #222;
 	background-color: #ffffff;
 	background-image: url('../images/grainy-lt-grey.jpg');
@@ -98,6 +98,7 @@ h4 {
 }
 h3 {
 	color: #555;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: auto;
 	font-variant:small-caps;
 }
