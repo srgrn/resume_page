@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|PT+Sans|PT+Sans+Caption:400,700);
 .somestuff {
 	background:#ccc;
 	background-color: rgba(204, 204, 204, 0.4);
@@ -37,7 +38,7 @@ dl dd {
 	color:#fdfdfd;
 }
 .header h4 {
-  font-family: "Georgia", Serif;      
+  font-family: "PT Sans Caption", sans-serif;      
   font-weight: normal;
   font-style: italic;
   color: #a0a0a0;
@@ -66,8 +67,8 @@ dl dd {
 }
 body {
   	margin: 0;
-	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-	color: #333333;
+	font-family: 'PT Sans', sans-serif;
+	color: #222;
 	background-color: #ffffff;
 	background-image: url('../images/grainy-lt-grey.jpg');
 }
@@ -88,4 +89,15 @@ body {
 .footer dl {
 	display:inline-block;
 	padding: 0px 0.714em 0px 0.714em	
+}
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;	
+}
+h3 {
+	color: #555;
+	font-family: 'PT Sans', sans-serif;
+	font-variant:small-caps;
 }
